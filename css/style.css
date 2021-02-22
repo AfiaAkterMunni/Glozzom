@@ -1,0 +1,89 @@
+.navbar{
+	background: #000;
+}
+
+nav li{
+	padding-left: 1rem !important;
+	text-transform: uppercase;
+	padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+.carousel-item{
+	height: 450px;
+}
+.carousel-img-1{
+	background-image: url('../img/image1.jpeg');
+	background-size: cover;
+}
+.carousel-img-2{
+	background-image: url('../img/image2.jpeg');
+	background-size: cover;
+}
+.carousel-img-3{
+	background-image: url('../img/image3.jpeg');
+	background-size: cover;
+}
+#homeIcon .fa{
+	font-size: 50px;
+}
+#stared{
+	background: url('../img/image1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative;
+}
+#stared .dark-overlay{
+	background: rgba(0,0,0,0);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+}
+#home-video{
+	background: url('../img/people.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative; 
+}
+#home-video .dark-overlay{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+}
+#home-video .dark-overlay .fa{
+	font-size: 50px;
+	color: red;
+}
+#galary img{
+	min-height: 250px;
+}
+#cardSection i{
+	font-size: 50px;
+}
+
+#footer{
+	background: black;
+}
+#service{
+	background: url('../img/image3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 200px;
+}
+
+#about{
+	background: url('../img/image1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 200px;
+}
